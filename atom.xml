@@ -41,32 +41,6 @@
   </entry>
   
   <entry>
-    <title>Windows桌面图标丢失变成白色方块</title>
-    <link href="https://mingbo.site/posts/52847f6f.html"/>
-    <id>https://mingbo.site/posts/52847f6f.html</id>
-    <published>2023-01-02T23:08:09.000Z</published>
-    <updated>2023-01-05T23:08:09.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>相信很多在使用电脑的时候经常会遇到桌面的图标突然变为白图标，或者是桌面图标上都有一个白色的方块档着。小篇就来教大家一种方法。</p><p><strong>1.右击桌空白处，弹出菜单选择“新建”，弹出选择“文本文档”。新建一个记事本。</strong></p><p><strong>2.打开记事本。复制以下代码：</strong><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">taskkill /f /im explorer.exe</span><br><span class="line">CD /d %userprofile%\AppData\Local</span><br><span class="line">DEL IconCache.db /a</span><br><span class="line">start explorer.exe</span><br><span class="line">cho 执行完成</span><br></pre></td></tr></table></figure></p><p><strong>3.点击“文件”，选择“保存”。保存刚才代码，关闭窗口</strong></p><p><strong>4.返回桌面，点击刚才这个文本，键盘上按F2，把txt扩展名修改为.bat，修改后按回车键，弹出提示点击“是”。</strong></p><p><strong>5.然后右击该图标，弹出选择“以管理员方式运行”。运行后，该程序会一闪而过，桌面刷新一下。白图标就修复了。如果还在手动按F5刷新一下就OK了。</strong></p><div class="tip warning faa-horizontal animated-hover"><p>注意事项：</p></div><p>① 如果保存时提示含有Unicode字符时，点击取消。然后点击文件，选择另存为，底下编码选项中选择“ANSI”，然后再保存为.bat格式。<br>② 代码直接复制就可以，以免手动输入错误。<br>③ 保存.bat时注意编码选择”ANSI”。</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;相信很多在使用电脑的时候经常会遇到桌面的图标突然变为白图标，或者是桌面图标上都有一个白色的方块档着。小篇就来教大家一种方法。&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;1.右击桌空白处，弹出菜单选择“新建”，弹出选择“文本文档”。新建一个记事本。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;&lt;st</summary>
-      
-    
-    
-    
-    <category term="Windows小技巧" scheme="https://mingbo.site/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="Windows" scheme="https://mingbo.site/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Windows窗口切换问题</title>
     <link href="https://mingbo.site/posts/1fc4ba16.html"/>
     <id>https://mingbo.site/posts/1fc4ba16.html</id>
@@ -81,6 +55,32 @@
     <summary type="html">&lt;p&gt;问题：当浏览器打开多个窗口后，在我们使用快捷键ALT+TAB时快捷键就会切换浏览器标签页，这给我们带来了不方便。&lt;/p&gt;
 &lt;p&gt;解决办法：打开设置搜索多任务处理可以看到系统默认设置&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://frosttuchuang.oss-cn-</summary>
+      
+    
+    
+    
+    <category term="Windows小技巧" scheme="https://mingbo.site/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="Windows" scheme="https://mingbo.site/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows桌面图标丢失变成白色方块</title>
+    <link href="https://mingbo.site/posts/52847f6f.html"/>
+    <id>https://mingbo.site/posts/52847f6f.html</id>
+    <published>2023-01-02T23:08:09.000Z</published>
+    <updated>2023-01-05T23:08:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>相信很多在使用电脑的时候经常会遇到桌面的图标突然变为白图标，或者是桌面图标上都有一个白色的方块档着。小篇就来教大家一种方法。</p><p><strong>1.右击桌空白处，弹出菜单选择“新建”，弹出选择“文本文档”。新建一个记事本。</strong></p><p><strong>2.打开记事本。复制以下代码：</strong><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">taskkill /f /im explorer.exe</span><br><span class="line">CD /d %userprofile%\AppData\Local</span><br><span class="line">DEL IconCache.db /a</span><br><span class="line">start explorer.exe</span><br><span class="line">cho 执行完成</span><br></pre></td></tr></table></figure></p><p><strong>3.点击“文件”，选择“保存”。保存刚才代码，关闭窗口</strong></p><p><strong>4.返回桌面，点击刚才这个文本，键盘上按F2，把txt扩展名修改为.bat，修改后按回车键，弹出提示点击“是”。</strong></p><p><strong>5.然后右击该图标，弹出选择“以管理员方式运行”。运行后，该程序会一闪而过，桌面刷新一下。白图标就修复了。如果还在手动按F5刷新一下就OK了。</strong></p><div class="tip warning faa-horizontal animated-hover"><p>注意事项：</p></div><p>① 如果保存时提示含有Unicode字符时，点击取消。然后点击文件，选择另存为，底下编码选项中选择“ANSI”，然后再保存为.bat格式。<br>② 代码直接复制就可以，以免手动输入错误。<br>③ 保存.bat时注意编码选择”ANSI”。</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;相信很多在使用电脑的时候经常会遇到桌面的图标突然变为白图标，或者是桌面图标上都有一个白色的方块档着。小篇就来教大家一种方法。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;1.右击桌空白处，弹出菜单选择“新建”，弹出选择“文本文档”。新建一个记事本。&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;&lt;st</summary>
       
     
     
