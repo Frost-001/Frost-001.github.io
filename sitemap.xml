@@ -2,6 +2,60 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://mingbo.site/posts/41502070.html</loc>
+    
+    <lastmod>2023-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/posts/8a3ca880.html</loc>
+    
+    <lastmod>2023-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/posts/b82f1c50.html</loc>
+    
+    <lastmod>2023-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/posts/f3fb008f.html</loc>
+    
+    <lastmod>2023-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/posts/521f1ec3.html</loc>
+    
+    <lastmod>2023-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/posts/7a6c421d.html</loc>
+    
+    <lastmod>2023-03-07</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://mingbo.site/about/index.html</loc>
     
     <lastmod>2023-03-06</lastmod>
@@ -38,9 +92,27 @@
   </url>
   
   <url>
-    <loc>https://mingbo.site/posts/4a17b156.html</loc>
+    <loc>https://mingbo.site/posts/fef8d53b.html</loc>
     
-    <lastmod>2023-03-06</lastmod>
+    <lastmod>2023-01-20</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/posts/1fc4ba16.html</loc>
+    
+    <lastmod>2023-01-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/posts/52847f6f.html</loc>
+    
+    <lastmod>2023-01-05</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -49,12 +121,61 @@
 
   <url>
     <loc>https://mingbo.site/</loc>
-    <lastmod>2023-03-06</lastmod>
+    <lastmod>2023-03-07</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
+  <url>
+    <loc>https://mingbo.site/tags/Windows/</loc>
+    <lastmod>2023-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/tags/%E8%B5%84%E6%BA%90/</loc>
+    <lastmod>2023-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
+  
+  <url>
+    <loc>https://mingbo.site/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2023-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/categories/%E7%AC%94%E8%AE%B0/</loc>
+    <lastmod>2023-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/</loc>
+    <lastmod>2023-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/categories/%E8%B5%84%E6%BA%90%E7%99%BE%E5%AE%9D%E7%AE%B1/</loc>
+    <lastmod>2023-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/categories/%E6%9D%82%E8%AE%B0/</loc>
+    <lastmod>2023-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
 </urlset>
