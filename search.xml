@@ -29,11 +29,11 @@
     
     
     <entry>
-      <title>Windows窗口切换问题</title>
-      <link href="/posts/1fc4ba16.html"/>
-      <url>/posts/1fc4ba16.html</url>
+      <title>Windows桌面图标丢失变成白色方块</title>
+      <link href="/posts/52847f6f.html"/>
+      <url>/posts/52847f6f.html</url>
       
-        <content type="html"><![CDATA[<p>问题：当浏览器打开多个窗口后，在我们使用快捷键ALT+TAB时快捷键就会切换浏览器标签页，这给我们带来了不方便。</p><p>解决办法：打开设置搜索多任务处理可以看到系统默认设置</p><p><img src="https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/%E7%AA%97%E5%8F%A3%E5%88%87%E6%8D%A2.png" alt=""></p><p>更改后即可完美解决此问题.</p><p><img src="https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/QQ%E6%88%AA%E5%9B%BE20230124141140.png" alt=""></p>]]></content>
+        <content type="html"><![CDATA[<p>相信很多在使用电脑的时候经常会遇到桌面的图标突然变为白图标，或者是桌面图标上都有一个白色的方块档着。小篇就来教大家一种方法。</p><p><strong>1.右击桌空白处，弹出菜单选择“新建”，弹出选择“文本文档”。新建一个记事本。</strong></p><p><strong>2.打开记事本。复制以下代码：</strong><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">taskkill /f /im explorer.exe</span><br><span class="line">CD /d %userprofile%\AppData\Local</span><br><span class="line">DEL IconCache.db /a</span><br><span class="line">start explorer.exe</span><br><span class="line">cho 执行完成</span><br></pre></td></tr></table></figure></p><p><strong>3.点击“文件”，选择“保存”。保存刚才代码，关闭窗口</strong></p><p><strong>4.返回桌面，点击刚才这个文本，键盘上按F2，把txt扩展名修改为.bat，修改后按回车键，弹出提示点击“是”。</strong></p><p><strong>5.然后右击该图标，弹出选择“以管理员方式运行”。运行后，该程序会一闪而过，桌面刷新一下。白图标就修复了。如果还在手动按F5刷新一下就OK了。</strong></p><div class="tip warning faa-horizontal animated-hover"><p>注意事项：</p></div><p>① 如果保存时提示含有Unicode字符时，点击取消。然后点击文件，选择另存为，底下编码选项中选择“ANSI”，然后再保存为.bat格式。<br>② 代码直接复制就可以，以免手动输入错误。<br>③ 保存.bat时注意编码选择”ANSI”。</p>]]></content>
       
       
       <categories>
@@ -54,11 +54,11 @@
     
     
     <entry>
-      <title>Windows桌面图标丢失变成白色方块</title>
-      <link href="/posts/52847f6f.html"/>
-      <url>/posts/52847f6f.html</url>
+      <title>Windows窗口切换问题</title>
+      <link href="/posts/1fc4ba16.html"/>
+      <url>/posts/1fc4ba16.html</url>
       
-        <content type="html"><![CDATA[<p>相信很多在使用电脑的时候经常会遇到桌面的图标突然变为白图标，或者是桌面图标上都有一个白色的方块档着。小篇就来教大家一种方法。</p><p><strong>1.右击桌空白处，弹出菜单选择“新建”，弹出选择“文本文档”。新建一个记事本。</strong></p><p><strong>2.打开记事本。复制以下代码：</strong><br><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">@echo off</span><br><span class="line">taskkill /f /im explorer.exe</span><br><span class="line">CD /d %userprofile%\AppData\Local</span><br><span class="line">DEL IconCache.db /a</span><br><span class="line">start explorer.exe</span><br><span class="line">cho 执行完成</span><br></pre></td></tr></table></figure></p><p><strong>3.点击“文件”，选择“保存”。保存刚才代码，关闭窗口</strong></p><p><strong>4.返回桌面，点击刚才这个文本，键盘上按F2，把txt扩展名修改为.bat，修改后按回车键，弹出提示点击“是”。</strong></p><p><strong>5.然后右击该图标，弹出选择“以管理员方式运行”。运行后，该程序会一闪而过，桌面刷新一下。白图标就修复了。如果还在手动按F5刷新一下就OK了。</strong></p><div class="tip warning faa-horizontal animated-hover"><p>注意事项：</p></div><p>① 如果保存时提示含有Unicode字符时，点击取消。然后点击文件，选择另存为，底下编码选项中选择“ANSI”，然后再保存为.bat格式。<br>② 代码直接复制就可以，以免手动输入错误。<br>③ 保存.bat时注意编码选择”ANSI”。</p>]]></content>
+        <content type="html"><![CDATA[<p>问题：当浏览器打开多个窗口后，在我们使用快捷键ALT+TAB时快捷键就会切换浏览器标签页，这给我们带来了不方便。</p><p>解决办法：打开设置搜索多任务处理可以看到系统默认设置</p><p><img src="https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/%E7%AA%97%E5%8F%A3%E5%88%87%E6%8D%A2.png" alt=""></p><p>更改后即可完美解决此问题.</p><p><img src="https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/QQ%E6%88%AA%E5%9B%BE20230124141140.png" alt=""></p>]]></content>
       
       
       <categories>
@@ -196,6 +196,17 @@
     
     
     <entry>
+      <title>关于我</title>
+      <link href="/about/index.html"/>
+      <url>/about/index.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>分类</title>
       <link href="/categories/index.html"/>
       <url>/categories/index.html</url>
@@ -218,11 +229,11 @@
     
     
     <entry>
-      <title>关于我</title>
-      <link href="/about/index.html"/>
-      <url>/about/index.html</url>
+      <title></title>
+      <link href="/css/runtime1.min.css"/>
+      <url>/css/runtime1.min.css</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[@font-face{font-family:UnidreamLED;src:url(https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/UnidreamLED.ttf);font-display:swap}div#runtime{width:180px;margin:auto;color:#fff;padding-inline:5px;border-radius:10px;background-color:rgba(0,0,0,.7);font-family:UnidreamLED}[data-theme=dark] div#runtime{color:#28b4c8;box-shadow:0 0 5px rgba(28,69,218,.71);animation:flashlight 1s linear infinite alternate}a.github-badge:hover:before{position:fixed;width:fit-content;margin:auto;left:0;right:0;top:10%;border-radius:10px;text-align:center;z-index:100;content:attr(data-title);font-size:20px;color:#fff;padding:10px;background-color:var(--text-bg-hover)}[data-theme=dark] a.github-badge:hover:before{background-color:rgba(18,18,18,.8)}@-moz-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}@-webkit-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}@-o-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}@keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}]]></content>
       
     </entry>
     
@@ -230,10 +241,21 @@
     
     <entry>
       <title></title>
-      <link href="/css/runtime1.min.css"/>
-      <url>/css/runtime1.min.css</url>
+      <link href="/js/title.js"/>
+      <url>/js/title.js</url>
       
-        <content type="html"><![CDATA[@font-face{font-family:UnidreamLED;src:url(https://cdn.jsdelivr.net/npm/akilar-candyassets/fonts/UnidreamLED.ttf);font-display:swap}div#runtime{width:180px;margin:auto;color:#fff;padding-inline:5px;border-radius:10px;background-color:rgba(0,0,0,.7);font-family:UnidreamLED}[data-theme=dark] div#runtime{color:#28b4c8;box-shadow:0 0 5px rgba(28,69,218,.71);animation:flashlight 1s linear infinite alternate}a.github-badge:hover:before{position:fixed;width:fit-content;margin:auto;left:0;right:0;top:10%;border-radius:10px;text-align:center;z-index:100;content:attr(data-title);font-size:20px;color:#fff;padding:10px;background-color:var(--text-bg-hover)}[data-theme=dark] a.github-badge:hover:before{background-color:rgba(18,18,18,.8)}@-moz-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}@-webkit-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}@-o-keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}@keyframes flashlight{from{box-shadow:0 0 5px #1478d2}to{box-shadow:0 0 2px #1478d2}}]]></content>
+        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener("visibilitychange", function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = "w(ﾟДﾟ)w 不要走！再看看嘛！";    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = "♪(^∇^*)欢迎肥来！" + OriginTitile;    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/js/runtime1.min.js"/>
+      <url>/js/runtime1.min.js</url>
+      
+        <content type="html"><![CDATA[var now = new Date; function createtime() { var t = new Date("02/14/2023 00:00:00"); now.setTime(now.getTime() + 250); var e = (now - t) / 1e3 / 60 / 60 / 24, a = Math.floor(e), n = (now - t) / 1e3 / 60 / 60 - 24 * a, r = Math.floor(n); 1 == String(r).length && (r = "0" + r); var s = (now - t) / 1e3 / 60 - 1440 * a - 60 * r, i = Math.floor(s); 1 == String(i).length && (i = "0" + i); var o = (now - t) / 1e3 - 86400 * a - 3600 * r - 60 * i, l = Math.round(o); 1 == String(l).length && (l = "0" + l); let g = ""; g = r < 18 && r >= 9 ? `<img class='boardsign' src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/footer1.svg' title='距离月入25k也就还差一个大佬带我~'><span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>` : `<img class='boardsign' src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/footer2.svg' title='下班了就该开开心心的玩耍，嘿嘿~'><span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`, document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = g) } setInterval((() => { createtime() }), 250);]]></content>
       
     </entry>
     
@@ -267,28 +289,6 @@
       <url>/tags/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/title.js"/>
-      <url>/js/title.js</url>
-      
-        <content type="html"><![CDATA[//动态标题var OriginTitile = document.title;var titleTime;document.addEventListener("visibilitychange", function () {  if (document.hidden) {    //离开当前页面时标签显示内容    document.title = "w(ﾟДﾟ)w 不要走！再看看嘛！";    clearTimeout(titleTime);  } else {    //返回当前页面时标签显示内容    document.title = "♪(^∇^*)欢迎肥来！" + OriginTitile;    //两秒后变回正常标题    titleTime = setTimeout(function () {      document.title = OriginTitile;    }, 2000);  }});]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title></title>
-      <link href="/js/runtime1.min.js"/>
-      <url>/js/runtime1.min.js</url>
-      
-        <content type="html"><![CDATA[var now = new Date; function createtime() { var t = new Date("02/14/2023 00:00:00"); now.setTime(now.getTime() + 250); var e = (now - t) / 1e3 / 60 / 60 / 24, a = Math.floor(e), n = (now - t) / 1e3 / 60 / 60 - 24 * a, r = Math.floor(n); 1 == String(r).length && (r = "0" + r); var s = (now - t) / 1e3 / 60 - 1440 * a - 60 * r, i = Math.floor(s); 1 == String(i).length && (i = "0" + i); var o = (now - t) / 1e3 - 86400 * a - 3600 * r - 60 * i, l = Math.round(o); 1 == String(l).length && (l = "0" + l); let g = ""; g = r < 18 && r >= 9 ? `<img class='boardsign' src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/footer1.svg' title='距离月入25k也就还差一个大佬带我~'><span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>` : `<img class='boardsign' src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/footer2.svg' title='下班了就该开开心心的玩耍，嘿嘿~'><span class='textTip'> <br> 本站居然运行了 ${a} 天</span><span id='runtime'> ${r} 小时 ${i} 分 ${l} 秒 </span> <i class='fas fa-heartbeat' style='color:red'></i>`, document.getElementById("workboard") && (document.getElementById("workboard").innerHTML = g) } setInterval((() => { createtime() }), 250);]]></content>
       
     </entry>
     

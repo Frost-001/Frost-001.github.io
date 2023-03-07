@@ -41,32 +41,6 @@
   </entry>
   
   <entry>
-    <title>Windows窗口切换问题</title>
-    <link href="https://mingbo.site/posts/1fc4ba16.html"/>
-    <id>https://mingbo.site/posts/1fc4ba16.html</id>
-    <published>2023-01-02T23:08:09.000Z</published>
-    <updated>2023-01-05T23:08:09.000Z</updated>
-    
-    <content type="html"><![CDATA[<p>问题：当浏览器打开多个窗口后，在我们使用快捷键ALT+TAB时快捷键就会切换浏览器标签页，这给我们带来了不方便。</p><p>解决办法：打开设置搜索多任务处理可以看到系统默认设置</p><p><img src="https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/%E7%AA%97%E5%8F%A3%E5%88%87%E6%8D%A2.png" alt=""></p><p>更改后即可完美解决此问题.</p><p><img src="https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/QQ%E6%88%AA%E5%9B%BE20230124141140.png" alt=""></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;问题：当浏览器打开多个窗口后，在我们使用快捷键ALT+TAB时快捷键就会切换浏览器标签页，这给我们带来了不方便。&lt;/p&gt;
-&lt;p&gt;解决办法：打开设置搜索多任务处理可以看到系统默认设置&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;https://frosttuchuang.oss-cn-</summary>
-      
-    
-    
-    
-    <category term="Windows小技巧" scheme="https://mingbo.site/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
-    
-    
-    <category term="Windows" scheme="https://mingbo.site/tags/Windows/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Windows桌面图标丢失变成白色方块</title>
     <link href="https://mingbo.site/posts/52847f6f.html"/>
     <id>https://mingbo.site/posts/52847f6f.html</id>
@@ -81,6 +55,32 @@
     <summary type="html">&lt;p&gt;相信很多在使用电脑的时候经常会遇到桌面的图标突然变为白图标，或者是桌面图标上都有一个白色的方块档着。小篇就来教大家一种方法。&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;1.右击桌空白处，弹出菜单选择“新建”，弹出选择“文本文档”。新建一个记事本。&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;st</summary>
+      
+    
+    
+    
+    <category term="Windows小技巧" scheme="https://mingbo.site/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    
+    
+    <category term="Windows" scheme="https://mingbo.site/tags/Windows/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Windows窗口切换问题</title>
+    <link href="https://mingbo.site/posts/1fc4ba16.html"/>
+    <id>https://mingbo.site/posts/1fc4ba16.html</id>
+    <published>2023-01-02T23:08:09.000Z</published>
+    <updated>2023-01-05T23:08:09.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>问题：当浏览器打开多个窗口后，在我们使用快捷键ALT+TAB时快捷键就会切换浏览器标签页，这给我们带来了不方便。</p><p>解决办法：打开设置搜索多任务处理可以看到系统默认设置</p><p><img src="https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/%E7%AA%97%E5%8F%A3%E5%88%87%E6%8D%A2.png" alt=""></p><p>更改后即可完美解决此问题.</p><p><img src="https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/QQ%E6%88%AA%E5%9B%BE20230124141140.png" alt=""></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;问题：当浏览器打开多个窗口后，在我们使用快捷键ALT+TAB时快捷键就会切换浏览器标签页，这给我们带来了不方便。&lt;/p&gt;
+&lt;p&gt;解决办法：打开设置搜索多任务处理可以看到系统默认设置&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://frosttuchuang.oss-cn-</summary>
       
     
     

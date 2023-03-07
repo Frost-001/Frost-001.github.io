@@ -540,6 +540,7 @@
     transition: 0.3s;
     top: -8px;
   }
+
   @keyframes gradient {
     0% {
       background-position: 0% 50%;
