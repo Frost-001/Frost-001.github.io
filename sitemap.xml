@@ -144,21 +144,7 @@
 
   
   <url>
-    <loc>https://mingbo.site/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
-    <lastmod>2023-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://mingbo.site/categories/Windows%E5%B0%8F%E6%8A%80%E5%B7%A7/</loc>
-    <lastmod>2023-03-07</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://mingbo.site/categories/%E8%B5%84%E6%BA%90%E7%99%BE%E5%AE%9D%E7%AE%B1/</loc>
     <lastmod>2023-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -173,6 +159,20 @@
   
   <url>
     <loc>https://mingbo.site/categories/%E6%9D%82%E8%AE%B0/</loc>
+    <lastmod>2023-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</loc>
+    <lastmod>2023-03-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://mingbo.site/categories/%E8%B5%84%E6%BA%90%E7%99%BE%E5%AE%9D%E7%AE%B1/</loc>
     <lastmod>2023-03-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
