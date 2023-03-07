@@ -93,52 +93,6 @@
   </entry>
   
   <entry>
-    <title>博客搭建</title>
-    <link href="https://mingbo.site/posts/f3fb008f.html"/>
-    <id>https://mingbo.site/posts/f3fb008f.html</id>
-    <published>2022-12-25T15:16:32.000Z</published>
-    <updated>2023-03-07T08:14:07.760Z</updated>
-    
-    <content type="html"><![CDATA[<p><img src="https://mingbotuchuang.oss-cn-beijing.aliyuncs.com/img/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B.png" alt=""></p><h2 id="第一步：基本环境-工具"><a href="#第一步：基本环境-工具" class="headerlink" title="第一步：基本环境/工具"></a>第一步：基本环境/工具</h2><p>注意：nodejs 和 git 建议安装在C盘<br>nodejs官网：<a href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a></p><p>git官网：<a href="https://www.gitclone.com/docs/feature/github_git">https://www.gitclone.com/docs/feature/github_git</a></p><p>vscode官网：<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p><p>安装cnpm请在git bash中安装，切换国内源，安装更快</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g cnpm --registry=https:<span class="comment">//registry.npmmirror.com</span></span><br></pre></td></tr></table></figure><p>安装hexo请在git bash 安装</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure><hr><h2 id="第二步：创建本地博客"><a href="#第二步：创建本地博客" class="headerlink" title="第二步：创建本地博客"></a>第二步：创建本地博客</h2><ol><li>创建一个文件夹</li><li>Hexo框架初始化(打开git bash执行)</li></ol><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><h2 id="第三步：安装主题"><a href="#第三步：安装主题" class="headerlink" title="第三步：安装主题"></a>第三步：安装主题</h2><p>每个主题的安装方式需要大家阅读主题文档，我们这里以<code>Butterfly</code>主题为例子</p><p>主题演示网站：<a href="https://butterfly.js.org/">https://butterfly.js.org/</a></p><p>主题使用文档：<a href="https://butterfly.js.org/posts/21cfbf15/#%E5%AE%89%E8%A3%9D">https://butterfly.js.org/posts/21cfbf15/#%E5%AE%89%E8%A3%9D</a></p><h2 id="第四步：创建Github仓库"><a href="#第四步：创建Github仓库" class="headerlink" title="第四步：创建Github仓库"></a>第四步：创建Github仓库</h2><ol><li><p>注册github后创建1个仓库</p></li><li><p>在网站配置文件添加ssh链接</p></li></ol><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  branch: main</span><br><span class="line">  repo: git@github.com:Frost-<span class="number">001</span>/Frost-<span class="number">001</span>.github.io.git</span><br></pre></td></tr></table></figure><h2 id="第五步：配置密钥信息"><a href="#第五步：配置密钥信息" class="headerlink" title="第五步：配置密钥信息"></a>第五步：配置密钥信息</h2><p>生成SSH：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C “邮箱“</span><br></pre></td></tr></table></figure><p>验证信息：</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> user.name <span class="string">&quot;英文名字&quot;</span></span><br><span class="line">git config --<span class="keyword">global</span> user.email <span class="string">&quot;邮箱&quot;</span></span><br></pre></td></tr></table></figure><h2 id="第六步：上传博客"><a href="#第六步：上传博客" class="headerlink" title="第六步：上传博客"></a>第六步：上传博客</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure><h2 id="最后一步：获取网址及绑定自己的域名"><a href="#最后一步：获取网址及绑定自己的域名" class="headerlink" title="最后一步：获取网址及绑定自己的域名"></a>最后一步：获取网址及绑定自己的域名</h2><p>| vercel: <a href="https://vercel.com/dashboard">https://vercel.com/dashboard</a></p><p>主要作用：</p><ol><li>让国内可以正常访问</li><li>使网址方便记忆及个性化</li></ol>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://mingbotuchuang.oss-cn-beijing.aliyuncs.com/img/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-</summary>
-      
-    
-    
-    
-    <category term="笔记" scheme="https://mingbo.site/categories/%E7%AC%94%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Helens(海伦司)</title>
-    <link href="https://mingbo.site/posts/41502070.html"/>
-    <id>https://mingbo.site/posts/41502070.html</id>
-    <published>2022-12-25T15:16:32.000Z</published>
-    <updated>2023-03-07T08:14:07.768Z</updated>
-    
-    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><div class="tip success"><p>一、初识Helens</p></div></h2><p>Helens海伦司，致力于打造年轻人的线下社交平台。第一家Helens诞生于2009年，目前在北京、上海 、广州 、深圳 、武汉、成都、鞍山等150+城市，拥有门店800+。<br>在社交空间上，目前已推出东南亚异域风、欧洲花园风、欧式爱丁堡风、意大利托斯卡纳风四种主题风格装修，将环境体验感分值拉满；产品组合上，我们以自有产品为主，外部产品为辅，并提供极具性价比的产品组合。通过高效、即时的服务，统一、潮流的音乐，为顾客带来自由、放松、快乐的夜间生活。</p><div class="videos" col='2'><div class="video"><video controls preload><source src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/%E5%A4%A7%E5%90%88%E5%94%B1-%E6%84%8F%E5%A4%964.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div><div class="video"><video controls preload><source src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/%E5%A4%A7%E5%90%88%E5%94%B1-%E5%90%8E%E6%9D%A51.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div></div><div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/DSC_2589.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/DSC_2585.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/c3e3505523c6018d21c3535f7447ea1.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/B81A3296.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/382eee957baeff5e400f649139aff08.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/6eb5354db97dd2d383116461c46e559.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/1f1b4216c2d8c5de43c18b30e6c4a01.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div><h4 id="如何在海伦司装老手"><a href="#如何在海伦司装老手" class="headerlink" title="如何在海伦司装老手"></a>如何在海伦司装老手</h4><p>首先是进门: ( 未成年禁止入内)<br>1.下单，每张桌子的右下角会有二维码，支付宝和微信扫描即可打开下单，门店两点打烊，两点过后就不能再点单了。<br>2.点酒，首推可乐桶,好喝劲大,酒量差的女生可以点果啤或奶啤超级好喝(白桃果啤巨好喝推<br>荐)，小吃种类也很多也可以自己带（酒水是不可以的带的哦）<br>3.关注Helens海伦司微信公众号，在对话框输入在线取号即可获得附近海伦司的等位号人+附近海<br>伦司的等位情况，或者现场扫描服务员提供的等位二维码在等位的时候服务员会送—些小啤酒跟<br>小零食是免费的哦，没喝完的话也可以带进去<br>4.荧光棒棒糖可以找服务员要或者去吧台都是可以的<br>5.赖酒小妙招可以找服务要-桶冰块使劲往杯子里面加，加水果也可以<br>6.酒水打包，喝不完的酒水可以扫码右下角的二维码存酒，不知道在哪的话也可以找服务员帮忙，酒水只能存30天，下次来了再取，活动酒水一般是不允许存的<br>7.</p><h2 id="-1"><a href="#-1" class="headerlink" title=""></a><div class="tip success"><p>二、Helens产品简介</p></div></h2><p><img src="https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/caidan.jpg" alt=""><br><strong>不踩坑系列推荐：</strong></p><div class="table-container"><table><thead><tr><th style="text-align:left">酒水类</th><th style="text-align:center">小吃类</th><th style="text-align:right">烧烤类</th></tr></thead><tbody><tr><td style="text-align:left">香草威士忌可乐桶：29元</td><td style="text-align:center">藤椒翅尖：9.9元</td><td style="text-align:right">喷香小烧烤：29.9元</td></tr><tr><td style="text-align:left">老冰棍吨吨桶：79.9元</td><td style="text-align:center">麻辣旋风小土豆：11.9元</td><td style="text-align:right">羔羊串：12.9元</td></tr><tr><td style="text-align:left">果啤吨吨桶：89.99元</td><td style="text-align:center">柠檬无骨鸡爪：27.9元</td><td style="text-align:right">小肥牛：12.9元</td></tr></tbody></table></div><span class='p center logo large'>经典爆款系列</span><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/Putao.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">海伦司啤酒（葡萄味）</div>  <p>与其说是一款啤酒,更像一款葡萄味的汽水，酒精度很低，甜甜的超级易入口，贪杯也不怕醉，价格：9.3元</p>  <a href='/mingbo.site/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/Caomei.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">海伦司啤酒（草莓味）</div>  <p>几杯下肚，空中都是草莓味的香甜，心情也开始咕噜咕噜冒泡，像极了初恋的感觉，价格：9.3元</p>  <a href='/gallery/Gundam/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/Baitao.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">海伦司啤酒（白桃味）</div>  <p>清甜的桃香，与醇爽的麦香层次分明又完美融合，仿佛把新鲜白桃装进了啤酒里，价格：9.3元</p>  <a href='/gallery/I-am-Akilar/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/Keleza.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">威士忌可乐扎</div>  <p>死亡可乐桶的升级版，半米高的可乐扎，容量超级大，适合多人聚会，价格：79.99元</p>  <a href='/gallery/I-am-Akil/'></a>  </figcaption>  </figure>  </div><h2 id="-2"><a href="#-2" class="headerlink" title=""></a><div class="tip success"><p>三、Helens近期活动解析</p></div></h2><h3 id="1-折扣产品及活动"><a href="#1-折扣产品及活动" class="headerlink" title="1. 折扣产品及活动"></a>1. 折扣产品及活动</h3><p>①抖音团购（简直不要太便宜）</p><h2 id="-3"><a href="#-3" class="headerlink" title=""></a><div class="tip success"><p>四、Helens发展历程</p></div></h2><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>12年飞速成长，成为年轻人夜间生活的新方式</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2009年 （品牌诞生）</p></div></div><div class='timeline-item-content'><p>第一家以“Helens”命名的门店诞生；<br>第一家跨城市门店在上海诞生</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2015年（重新定位）</p></div></div><div class='timeline-item-content'><p>“年轻人的聚会空间”</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2019年（尝试酒精饮料化）</p></div></div><div class='timeline-item-content'><p>“门店突破200家；<br>新增海伦司啤酒（葡萄味）及嗨斗”</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2021年</p></div></div><div class='timeline-item-content'><p>“① 上市<br>9月，海伦司在港股上市<br>② 新增门店<br>全年新开门店452家 ”</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2022年</p></div></div><div class='timeline-item-content'><p>“800家<br>门店突破800家”</p></div></div></div>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;div class=&quot;tip success&quot;&gt;&lt;p&gt;一、初识Helens&lt;/p&gt;
-&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;Helens海伦司，致力于打造年轻人的线下社交平台。第一家</summary>
-      
-    
-    
-    
-    <category term="杂记" scheme="https://mingbo.site/categories/%E6%9D%82%E8%AE%B0/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>Markdown语法练习</title>
     <link href="https://mingbo.site/posts/b82f1c50.html"/>
     <id>https://mingbo.site/posts/b82f1c50.html</id>
@@ -161,24 +115,24 @@
   </entry>
   
   <entry>
-    <title>XXX</title>
-    <link href="https://mingbo.site/posts/8a3ca880.html"/>
-    <id>https://mingbo.site/posts/8a3ca880.html</id>
+    <title>博客搭建</title>
+    <link href="https://mingbo.site/posts/f3fb008f.html"/>
+    <id>https://mingbo.site/posts/f3fb008f.html</id>
     <published>2022-12-25T15:16:32.000Z</published>
-    <updated>2023-03-07T08:14:07.766Z</updated>
+    <updated>2023-03-07T08:14:07.760Z</updated>
     
-    <content type="html"><![CDATA[<p>这是一篇趣闻趣事文章</p>]]></content>
+    <content type="html"><![CDATA[<p><img src="https://mingbotuchuang.oss-cn-beijing.aliyuncs.com/img/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B.png" alt=""></p><h2 id="第一步：基本环境-工具"><a href="#第一步：基本环境-工具" class="headerlink" title="第一步：基本环境/工具"></a>第一步：基本环境/工具</h2><p>注意：nodejs 和 git 建议安装在C盘<br>nodejs官网：<a href="https://nodejs.org/zh-cn/">https://nodejs.org/zh-cn/</a></p><p>git官网：<a href="https://www.gitclone.com/docs/feature/github_git">https://www.gitclone.com/docs/feature/github_git</a></p><p>vscode官网：<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a></p><p>安装cnpm请在git bash中安装，切换国内源，安装更快</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install -g cnpm --registry=https:<span class="comment">//registry.npmmirror.com</span></span><br></pre></td></tr></table></figure><p>安装hexo请在git bash 安装</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install hexo-cli -g</span><br></pre></td></tr></table></figure><hr><h2 id="第二步：创建本地博客"><a href="#第二步：创建本地博客" class="headerlink" title="第二步：创建本地博客"></a>第二步：创建本地博客</h2><ol><li>创建一个文件夹</li><li>Hexo框架初始化(打开git bash执行)</li></ol><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init</span><br></pre></td></tr></table></figure><h2 id="第三步：安装主题"><a href="#第三步：安装主题" class="headerlink" title="第三步：安装主题"></a>第三步：安装主题</h2><p>每个主题的安装方式需要大家阅读主题文档，我们这里以<code>Butterfly</code>主题为例子</p><p>主题演示网站：<a href="https://butterfly.js.org/">https://butterfly.js.org/</a></p><p>主题使用文档：<a href="https://butterfly.js.org/posts/21cfbf15/#%E5%AE%89%E8%A3%9D">https://butterfly.js.org/posts/21cfbf15/#%E5%AE%89%E8%A3%9D</a></p><h2 id="第四步：创建Github仓库"><a href="#第四步：创建Github仓库" class="headerlink" title="第四步：创建Github仓库"></a>第四步：创建Github仓库</h2><ol><li><p>注册github后创建1个仓库</p></li><li><p>在网站配置文件添加ssh链接</p></li></ol><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  branch: main</span><br><span class="line">  repo: git@github.com:Frost-<span class="number">001</span>/Frost-<span class="number">001</span>.github.io.git</span><br></pre></td></tr></table></figure><h2 id="第五步：配置密钥信息"><a href="#第五步：配置密钥信息" class="headerlink" title="第五步：配置密钥信息"></a>第五步：配置密钥信息</h2><p>生成SSH：</p><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C “邮箱“</span><br></pre></td></tr></table></figure><p>验证信息：</p><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">git config --<span class="keyword">global</span> user.name <span class="string">&quot;英文名字&quot;</span></span><br><span class="line">git config --<span class="keyword">global</span> user.email <span class="string">&quot;邮箱&quot;</span></span><br></pre></td></tr></table></figure><h2 id="第六步：上传博客"><a href="#第六步：上传博客" class="headerlink" title="第六步：上传博客"></a>第六步：上传博客</h2><figure class="highlight php"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-deployer-git --save</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo g -d</span><br></pre></td></tr></table></figure><h2 id="最后一步：获取网址及绑定自己的域名"><a href="#最后一步：获取网址及绑定自己的域名" class="headerlink" title="最后一步：获取网址及绑定自己的域名"></a>最后一步：获取网址及绑定自己的域名</h2><p>| vercel: <a href="https://vercel.com/dashboard">https://vercel.com/dashboard</a></p><p>主要作用：</p><ol><li>让国内可以正常访问</li><li>使网址方便记忆及个性化</li></ol>]]></content>
     
     
       
       
-    <summary type="html">&lt;p&gt;这是一篇趣闻趣事文章&lt;/p&gt;
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://mingbotuchuang.oss-cn-beijing.aliyuncs.com/img/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E6%95%99%E7%A8%8B.png&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
 </summary>
       
     
     
     
-    <category term="杂记" scheme="https://mingbo.site/categories/%E6%9D%82%E8%AE%B0/"/>
+    <category term="笔记" scheme="https://mingbo.site/categories/%E7%AC%94%E8%AE%B0/"/>
     
     
   </entry>
@@ -223,6 +177,52 @@
     
     
     <category term="软件推荐" scheme="https://mingbo.site/categories/%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>XXX</title>
+    <link href="https://mingbo.site/posts/8a3ca880.html"/>
+    <id>https://mingbo.site/posts/8a3ca880.html</id>
+    <published>2022-12-25T15:16:32.000Z</published>
+    <updated>2023-03-07T08:14:07.766Z</updated>
+    
+    <content type="html"><![CDATA[<p>这是一篇趣闻趣事文章</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;这是一篇趣闻趣事文章&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    <category term="杂记" scheme="https://mingbo.site/categories/%E6%9D%82%E8%AE%B0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Helens(海伦司)</title>
+    <link href="https://mingbo.site/posts/41502070.html"/>
+    <id>https://mingbo.site/posts/41502070.html</id>
+    <published>2022-12-25T15:16:32.000Z</published>
+    <updated>2023-03-07T08:14:07.768Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a><div class="tip success"><p>一、初识Helens</p></div></h2><p>Helens海伦司，致力于打造年轻人的线下社交平台。第一家Helens诞生于2009年，目前在北京、上海 、广州 、深圳 、武汉、成都、鞍山等150+城市，拥有门店800+。<br>在社交空间上，目前已推出东南亚异域风、欧洲花园风、欧式爱丁堡风、意大利托斯卡纳风四种主题风格装修，将环境体验感分值拉满；产品组合上，我们以自有产品为主，外部产品为辅，并提供极具性价比的产品组合。通过高效、即时的服务，统一、潮流的音乐，为顾客带来自由、放松、快乐的夜间生活。</p><div class="videos" col='2'><div class="video"><video controls preload><source src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/%E5%A4%A7%E5%90%88%E5%94%B1-%E6%84%8F%E5%A4%964.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div><div class="video"><video controls preload><source src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/%E5%A4%A7%E5%90%88%E5%94%B1-%E5%90%8E%E6%9D%A51.mp4' type='video/mp4'>Your browser does not support the video tag.</video></div></div><div class="gallery">    <div class="fj-gallery  data" data-rowHeight="220" data-limit="10">    <span class="gallery-data">[{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/DSC_2589.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/DSC_2585.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/c3e3505523c6018d21c3535f7447ea1.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/B81A3296.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/382eee957baeff5e400f649139aff08.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/6eb5354db97dd2d383116461c46e559.jpg","alt":""},{"url":"https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/1f1b4216c2d8c5de43c18b30e6c4a01.jpg","alt":""}]</span>    </div>    <button class="gallery-load-more"><span>加载更多</span><i class="fa-solid fa-arrow-down"></i></button>    </div><h4 id="如何在海伦司装老手"><a href="#如何在海伦司装老手" class="headerlink" title="如何在海伦司装老手"></a>如何在海伦司装老手</h4><p>首先是进门: ( 未成年禁止入内)<br>1.下单，每张桌子的右下角会有二维码，支付宝和微信扫描即可打开下单，门店两点打烊，两点过后就不能再点单了。<br>2.点酒，首推可乐桶,好喝劲大,酒量差的女生可以点果啤或奶啤超级好喝(白桃果啤巨好喝推<br>荐)，小吃种类也很多也可以自己带（酒水是不可以的带的哦）<br>3.关注Helens海伦司微信公众号，在对话框输入在线取号即可获得附近海伦司的等位号人+附近海<br>伦司的等位情况，或者现场扫描服务员提供的等位二维码在等位的时候服务员会送—些小啤酒跟<br>小零食是免费的哦，没喝完的话也可以带进去<br>4.荧光棒棒糖可以找服务员要或者去吧台都是可以的<br>5.赖酒小妙招可以找服务要-桶冰块使劲往杯子里面加，加水果也可以<br>6.酒水打包，喝不完的酒水可以扫码右下角的二维码存酒，不知道在哪的话也可以找服务员帮忙，酒水只能存30天，下次来了再取，活动酒水一般是不允许存的<br>7.</p><h2 id="-1"><a href="#-1" class="headerlink" title=""></a><div class="tip success"><p>二、Helens产品简介</p></div></h2><p><img src="https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/caidan.jpg" alt=""><br><strong>不踩坑系列推荐：</strong></p><div class="table-container"><table><thead><tr><th style="text-align:left">酒水类</th><th style="text-align:center">小吃类</th><th style="text-align:right">烧烤类</th></tr></thead><tbody><tr><td style="text-align:left">香草威士忌可乐桶：29元</td><td style="text-align:center">藤椒翅尖：9.9元</td><td style="text-align:right">喷香小烧烤：29.9元</td></tr><tr><td style="text-align:left">老冰棍吨吨桶：79.9元</td><td style="text-align:center">麻辣旋风小土豆：11.9元</td><td style="text-align:right">羔羊串：12.9元</td></tr><tr><td style="text-align:left">果啤吨吨桶：89.99元</td><td style="text-align:center">柠檬无骨鸡爪：27.9元</td><td style="text-align:right">小肥牛：12.9元</td></tr></tbody></table></div><span class='p center logo large'>经典爆款系列</span><div class="gallery-group-main">  <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/Putao.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">海伦司啤酒（葡萄味）</div>  <p>与其说是一款啤酒,更像一款葡萄味的汽水，酒精度很低，甜甜的超级易入口，贪杯也不怕醉，价格：9.3元</p>  <a href='/mingbo.site/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/Caomei.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">海伦司啤酒（草莓味）</div>  <p>几杯下肚，空中都是草莓味的香甜，心情也开始咕噜咕噜冒泡，像极了初恋的感觉，价格：9.3元</p>  <a href='/gallery/Gundam/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/Baitao.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">海伦司啤酒（白桃味）</div>  <p>清甜的桃香，与醇爽的麦香层次分明又完美融合，仿佛把新鲜白桃装进了啤酒里，价格：9.3元</p>  <a href='/gallery/I-am-Akilar/'></a>  </figcaption>  </figure>    <figure class="gallery-group">  <img class="gallery-group-img no-lightbox" src='https://frosttuchuang.oss-cn-beijing.aliyuncs.com/Frost_img/Keleza.jpg' alt="Group Image Gallery">  <figcaption>  <div class="gallery-group-name">威士忌可乐扎</div>  <p>死亡可乐桶的升级版，半米高的可乐扎，容量超级大，适合多人聚会，价格：79.99元</p>  <a href='/gallery/I-am-Akil/'></a>  </figcaption>  </figure>  </div><h2 id="-2"><a href="#-2" class="headerlink" title=""></a><div class="tip success"><p>三、Helens近期活动解析</p></div></h2><h3 id="1-折扣产品及活动"><a href="#1-折扣产品及活动" class="headerlink" title="1. 折扣产品及活动"></a>1. 折扣产品及活动</h3><p>①抖音团购（简直不要太便宜）</p><h2 id="-3"><a href="#-3" class="headerlink" title=""></a><div class="tip success"><p>四、Helens发展历程</p></div></h2><div class="timeline blue"><div class='timeline-item headline'><div class='timeline-item-title'><div class='item-circle'><p>12年飞速成长，成为年轻人夜间生活的新方式</p></div></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2009年 （品牌诞生）</p></div></div><div class='timeline-item-content'><p>第一家以“Helens”命名的门店诞生；<br>第一家跨城市门店在上海诞生</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2015年（重新定位）</p></div></div><div class='timeline-item-content'><p>“年轻人的聚会空间”</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2019年（尝试酒精饮料化）</p></div></div><div class='timeline-item-content'><p>“门店突破200家；<br>新增海伦司啤酒（葡萄味）及嗨斗”</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2021年</p></div></div><div class='timeline-item-content'><p>“① 上市<br>9月，海伦司在港股上市<br>② 新增门店<br>全年新开门店452家 ”</p></div></div><div class='timeline-item'><div class='timeline-item-title'><div class='item-circle'><p>2022年</p></div></div><div class='timeline-item-content'><p>“800家<br>门店突破800家”</p></div></div></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;&quot;&gt;&lt;a href=&quot;#&quot; class=&quot;headerlink&quot; title=&quot;&quot;&gt;&lt;/a&gt;&lt;div class=&quot;tip success&quot;&gt;&lt;p&gt;一、初识Helens&lt;/p&gt;
+&lt;/div&gt;&lt;/h2&gt;&lt;p&gt;Helens海伦司，致力于打造年轻人的线下社交平台。第一家</summary>
+      
+    
+    
+    
+    <category term="杂记" scheme="https://mingbo.site/categories/%E6%9D%82%E8%AE%B0/"/>
     
     
   </entry>
